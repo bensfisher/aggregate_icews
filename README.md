@@ -4,3 +4,5 @@
 aggregated_data = aggregate_icews(icews_data)
 ```
 
+I've written a [blog post](http://bensfisher.com/aggregating-icews-data-in-r.html) that covers using and editing this function.
+
