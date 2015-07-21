@@ -2,6 +2,7 @@ aggregate_icews = function(df){
 	require(lubridate)
 	require(dplyr)
 	require(reshape2)
+	library(foreach)
 	
 	var_actors = c('gov','opp','soc','ios','usa','reb')
 	var_types = list(vercp = 1, matcp = 2, vercf = 3, matcf = 4)
